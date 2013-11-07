@@ -1,6 +1,6 @@
 Web Templates
 =============
 
-This is just a collection of web templates and web design ideas.
+This is a collection of web templates I prepared or modified heavily.
 
-These will probably all make some use of less but I will try instead to avoid "grids" or "frameworks".
+These will probably all make some use of less but also avoid css "frameworks".
