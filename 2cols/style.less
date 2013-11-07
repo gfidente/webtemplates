@@ -1,0 +1,31 @@
+@navigation-size: 25%;
+
+#layout {
+  padding-left: @navigation-size;
+}
+
+#navigation {
+  top: 0;
+  bottom: 0;
+  width: @navigation-size;
+  position: fixed;
+  margin-left: -@navigation-size;
+}
+
+#content {
+}
+
+@media (max-width: 767px) {
+  #layout {
+    padding-left: 0;
+  }
+
+  #navigation {
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+  }
+
+  #content {
+  }
+}
